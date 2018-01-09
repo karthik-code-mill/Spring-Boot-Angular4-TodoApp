@@ -1,0 +1,1 @@
+java -jar todo-app-backend/target/todo-app-0.1.jar

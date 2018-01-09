@@ -1,0 +1,22 @@
+<div class="todo-panel">
+  <h3 class="app-title">Todo App</h3>
+  <input (keyup.enter)="createTodo()" [(ngModel)]="newTodo" type="text"
+  placeholder="Enter you todo description here and press enter..."
+  class="form-input todo-new" >
+  <ul class="list-group">
+    <li *ngFor="let todo of todos" class="list-group-item">
+      
+        <div class="checkbox">
+            <label>
+              <input type="checkbox" minlength="3" maxlength="50" required (click)="toggleDoneTodo(todo)" [(ngModel)]="todo.isDone" 
+              name="isDone" />
+              <p [class.todo-done]="todo.isDone">{{todo.desc}}</p> 
+              
+            </label>
+            <a class="glyphicon glyphicon-trash todo-remove pull-right" (click)="deleteTodo(todo)"></a>
+        </div>  
+      
+    </li>
+  </ul>
+  
+</div>
