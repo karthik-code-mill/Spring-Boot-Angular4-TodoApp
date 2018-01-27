@@ -8,13 +8,13 @@
 
 ** WAY 1 : 
 
-    Make sure you have Java 1.7 or greater
-
-    Make sure JAVA_HOME & path variables are set for Java
-
-    Download the jar using download link in https://github.com/karthik-code-mill/Spring-Boot-Angular4-TodoApp/blob/master/todo-app-backend/target/todo-app-0.1.jar
+    Download the jar using download link,
+    https://github.com/karthik-code-mill/Spring-Boot-Angular4-TodoApp/blob/master/todo-app-backend/target/todo-app-0.1.jar
 
     Double click the downloaded jar file to run.
+    
+    Pre requesties : 
+    Make sure you have Java 1.7 or greater & Make sure JAVA_HOME & path variables are set for Java
 
     If any issues open terminal(cmd in windows) and run the command java -jar todo-app-0.1.jar after navigating to the download path
 
@@ -28,7 +28,7 @@
 
     run the runapp.bat file to start
 
-    Access the application using url --> http://localhost:8080/ **
+    Access the application using url --> http://localhost:8080/
 
 ## If you want to build the source code instructions as follows
 **Make sure you have Maven and Java 1.7 or greater**
