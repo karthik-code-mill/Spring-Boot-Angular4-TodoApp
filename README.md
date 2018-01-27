@@ -4,7 +4,7 @@
 
 
 
-## To just run the app 
+## To just run the app in single click 
 
 ** WAY 1 : 
 
@@ -30,7 +30,7 @@
 
     Access the application using url --> http://localhost:8080/ **
 
-## To Build the source code
+## If you want to build the source code instructions as follows
 **Make sure you have Maven and Java 1.7 or greater**
 **Make sure you also have NPM 3.1, Node 6.9.5 and angular-cli globally installed**
 ```bash
